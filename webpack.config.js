@@ -37,6 +37,10 @@ const config = {
       // Add your rules for custom modules here
       // Learn more about loaders from https://webpack.js.org/loaders/
     ],
+    output: {
+      filename: 'bundle.js',
+      path: path.resolve(__dirname, 'dist'),
+    },
   },
 };
 
@@ -50,3 +54,4 @@ module.exports = () => {
   }
   return config;
 };
+
