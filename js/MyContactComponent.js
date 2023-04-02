@@ -35,4 +35,4 @@ const MyContactComponent = () => {
         </div>
     );
 };
-ReactDOM.render(<npm/>, document.getElementById('mycontactcomp'));
+export default MyContactComponent;
