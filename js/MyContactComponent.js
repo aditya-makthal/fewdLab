@@ -35,4 +35,4 @@ const MyContactComponent = () => {
         </div>
     );
 };
-ReactDOM.render(<MyContactComponent/>, document.getElementById('mycontactcomp'));
+ReactDOM.render(<npm/>, document.getElementById('mycontactcomp'));
