@@ -1,9 +1,9 @@
-// import {handleSubmit} from "./twilio"
-// import React from "react";
-// import ReactDOM from "react-dom";
+import {handleSubmit} from "./twilio"
+import React from "react";
+import ReactDOM from "react-dom";
 import React, { useState } from 'react'
 const MyContactComponent = () => {
-    // const [phone, setPhone] = useState("");
+    const [phone, setPhone] = useState("");
     const handleSubmit = (event) => {
         event.preventDefault();
         sendMessage(phone);
@@ -21,8 +21,8 @@ const MyContactComponent = () => {
                                 Phone Number:<input
                                         type="text"
                                         name = "phoneno"
-                                        // value={phone}
-                                        // onChange={(e) => setPhone(e.target.value)}
+                                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
                                     /><br/>
                                 Message: <br /> <textarea name="ContactComment" rows="6"
                                     cols="40"></textarea><br />
